@@ -23,6 +23,9 @@ eval "$(zoxide init zsh)"
 eval "$(zoxide init zsh --cmd z)"
 eval "$(zoxide init zsh --cmd cd)"
 
+export PATH="$HOME/.local/bin:$PATH"
+export EDITOR="lvim"
+
 # User aliases
 
 alias c="clear"
@@ -30,6 +33,8 @@ alias c="clear"
 alias ra="ranger"
 
 alias lg="lazygit"
+
+alias vim="lvim"
 
 # lsd
 alias ls="lsd"
